@@ -1,0 +1,35 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Mac
+.DS_Store
+
+# Local editor preferences
+.vscode/
+
+# Data
+/data/raw
+data/processed/
+data/warehouse/
+data/bi_exports/repeat_timing.csv
+
+# dbt
+dbt/target/
+dbt/dbt_packages/
+logs/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+.local/

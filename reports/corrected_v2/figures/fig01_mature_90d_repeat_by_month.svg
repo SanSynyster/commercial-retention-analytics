@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="850" viewBox="0 0 1500 850" role="img" aria-labelledby="title desc">
+<title id="title">Mature 90-day second-purchase conversion</title>
+<desc id="desc">Monthly mature second-purchase conversion by first-observed population. Bars show mature denominators; incomplete outcomes are excluded.</desc>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="70.0" y="55.0" font-family="Arial, Helvetica, sans-serif" font-size="28px" fill="#172B3A" text-anchor="start" font-weight="700">Mature 90-day second-purchase conversion</text>
+<text x="70.0" y="84.0" font-family="Arial, Helvetica, sans-serif" font-size="15px" fill="#5B6B78" text-anchor="start" font-weight="400">By first-observed month and cutoff population · mature denominator shown below each panel</text>
+<text x="70.0" y="111.0" font-family="Arial, Helvetica, sans-serif" font-size="13px" fill="#5B6B78" text-anchor="start" font-weight="400">Primary repeat: a qualifying purchase on a strictly later date, within the half-open 90-day window.</text>
+<text x="402.0" y="145.0" font-family="Arial, Helvetica, sans-serif" font-size="17px" fill="#172B3A" text-anchor="middle" font-weight="700">First observed before 2010-12-01</text>
+<line x1="147.0" y1="455.0" x2="710.0" y2="455.0" stroke="#D8E0E5" stroke-width="1"/>
+<text x="137.0" y="460.0" font-family="Arial, Helvetica, sans-serif" font-size="11px" fill="#5B6B78" text-anchor="end" font-weight="400">0%</text>
+<line x1="147.0" y1="385.0" x2="710.0" y2="385.0" stroke="#D8E0E5" stroke-width="1"/>
+<text x="137.0" y="390.0" font-family="Arial, Helvetica, sans-serif" font-size="11px" fill="#5B6B78" text-anchor="end" font-weight="400">25%</text>
+<line x1="147.0" y1="315.0" x2="710.0" y2="315.0" stroke="#D8E0E5" stroke-width="1"/>
+<text x="137.0" y="320.0" font-family="Arial, Helvetica, sans-serif" font-size="11px" fill="#5B6B78" text-anchor="end" font-weight="400">50%</text>
+<line x1="147.0" y1="245.0" x2="710.0" y2="245.0" stroke="#D8E0E5" stroke-width="1"/>
+<text x="137.0" y="250.0" font-family="Arial, Helvetica, sans-serif" font-size="11px" fill="#5B6B78" text-anchor="end" font-weight="400">75%</text>
+<line x1="147.0" y1="175.0" x2="710.0" y2="175.0" stroke="#D8E0E5" stroke-width="1"/>
+<text x="137.0" y="180.0" font-family="Arial, Helvetica, sans-serif" font-size="11px" fill="#5B6B78" text-anchor="end" font-weight="400">100%</text>
+<rect x="138.0" y="555.0" width="18.0" height="165.0" rx="2" fill="#A8CDD0" stroke="none" stroke-width="1"/>
+<text x="147.0" y="548.0" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">951</text>
+<text x="147.0" y="742.0" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">2009-12</text>
+<rect x="189.2" y="656.2" width="18.0" height="63.8" rx="2" fill="#A8CDD0" stroke="none" stroke-width="1"/>
+<text x="198.2" y="649.2" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">368</text>
+<rect x="240.4" y="654.9" width="18.0" height="65.1" rx="2" fill="#A8CDD0" stroke="none" stroke-width="1"/>
+<text x="249.4" y="647.9" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">375</text>
+<text x="249.4" y="742.0" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">2010-02</text>
+<rect x="291.5" y="643.5" width="18.0" height="76.5" rx="2" fill="#A8CDD0" stroke="none" stroke-width="1"/>
+<text x="300.5" y="636.5" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">441</text>
+<rect x="342.7" y="669.0" width="18.0" height="51.0" rx="2" fill="#A8CDD0" stroke="none" stroke-width="1"/>
+<text x="351.7" y="662.0" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">294</text>
+<text x="351.7" y="742.0" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">2010-04</text>
+<rect x="393.9" y="675.8" width="18.0" height="44.2" rx="2" fill="#A8CDD0" stroke="none" stroke-width="1"/>
+<text x="402.9" y="668.8" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">255</text>
+<rect x="445.1" y="673.7" width="18.0" height="46.3" rx="2" fill="#A8CDD0" stroke="none" stroke-width="1"/>
+<text x="454.1" y="666.7" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">267</text>
+<text x="454.1" y="742.0" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">2010-06</text>
+<rect x="496.3" y="687.9" width="18.0" height="32.1" rx="2" fill="#A8CDD0" stroke="none" stroke-width="1"/>
+<text x="505.3" y="680.9" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">185</text>
+<rect x="547.5" y="691.7" width="18.0" height="28.3" rx="2" fill="#A8CDD0" stroke="none" stroke-width="1"/>
+<text x="556.5" y="684.7" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">163</text>
+<text x="556.5" y="742.0" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">2010-08</text>
+<rect x="598.6" y="678.5" width="18.0" height="41.5" rx="2" fill="#A8CDD0" stroke="none" stroke-width="1"/>
+<text x="607.6" y="671.5" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">239</text>
+<rect x="649.8" y="654.9" width="18.0" height="65.1" rx="2" fill="#A8CDD0" stroke="none" stroke-width="1"/>
+<text x="658.8" y="647.9" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">375</text>
+<text x="658.8" y="742.0" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">2010-10</text>
+<rect x="701.0" y="663.4" width="18.0" height="56.6" rx="2" fill="#A8CDD0" stroke="none" stroke-width="1"/>
+<text x="710.0" y="656.4" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">326</text>
+<text x="710.0" y="742.0" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">2010-11</text>
+<circle cx="147.0" cy="290.7" r="5" fill="#147D83" stroke="white" stroke-width="2"/>
+<line x1="147.0" y1="290.7" x2="198.2" y2="308.9" stroke="#147D83" stroke-width="3"/>
+<circle cx="198.2" cy="308.9" r="5" fill="#147D83" stroke="white" stroke-width="2"/>
+<line x1="198.2" y1="308.9" x2="249.4" y2="322.8" stroke="#147D83" stroke-width="3"/>
+<circle cx="249.4" cy="322.8" r="5" fill="#147D83" stroke="white" stroke-width="2"/>
+<line x1="249.4" y1="322.8" x2="300.5" y2="339.4" stroke="#147D83" stroke-width="3"/>
+<circle cx="300.5" cy="339.4" r="5" fill="#147D83" stroke="white" stroke-width="2"/>
+<line x1="300.5" y1="339.4" x2="351.7" y2="350.2" stroke="#147D83" stroke-width="3"/>
+<circle cx="351.7" cy="350.2" r="5" fill="#147D83" stroke="white" stroke-width="2"/>
+<line x1="351.7" y1="350.2" x2="402.9" y2="360.6" stroke="#147D83" stroke-width="3"/>
+<circle cx="402.9" cy="360.6" r="5" fill="#147D83" stroke="white" stroke-width="2"/>
+<line x1="402.9" y1="360.6" x2="454.1" y2="358.5" stroke="#147D83" stroke-width="3"/>
+<circle cx="454.1" cy="358.5" r="5" fill="#147D83" stroke="white" stroke-width="2"/>
+<line x1="454.1" y1="358.5" x2="505.3" y2="336.9" stroke="#147D83" stroke-width="3"/>
+<circle cx="505.3" cy="336.9" r="5" fill="#147D83" stroke="white" stroke-width="2"/>
+<line x1="505.3" y1="336.9" x2="556.5" y2="315.9" stroke="#147D83" stroke-width="3"/>
+<circle cx="556.5" cy="315.9" r="5" fill="#147D83" stroke="white" stroke-width="2"/>
+<line x1="556.5" y1="315.9" x2="607.6" y2="334.3" stroke="#147D83" stroke-width="3"/>
+<circle cx="607.6" cy="334.3" r="5" fill="#147D83" stroke="white" stroke-width="2"/>
+<line x1="607.6" y1="334.3" x2="658.8" y2="347.5" stroke="#147D83" stroke-width="3"/>
+<circle cx="658.8" cy="347.5" r="5" fill="#147D83" stroke="white" stroke-width="2"/>
+<line x1="658.8" y1="347.5" x2="710.0" y2="370.8" stroke="#147D83" stroke-width="3"/>
+<circle cx="710.0" cy="370.8" r="5" fill="#147D83" stroke="white" stroke-width="2"/>
+<text x="99.0" y="315.0" font-family="Arial, Helvetica, sans-serif" font-size="12px" fill="#5B6B78" text-anchor="middle" font-weight="400" transform="rotate(-90 99.0 315.0)">Repeat conversion</text>
+<text x="147.0" y="505.0" font-family="Arial, Helvetica, sans-serif" font-size="11px" fill="#5B6B78" text-anchor="start" font-weight="400">Monthly mature conversion (numerator / mature denominator)</text>
+<text x="147.0" y="755.0" font-family="Arial, Helvetica, sans-serif" font-size="12px" fill="#5B6B78" text-anchor="start" font-weight="400">Mature denominator, n</text>
+<text x="428.5" y="791.0" font-family="Arial, Helvetica, sans-serif" font-size="12px" fill="#5B6B78" text-anchor="middle" font-weight="400">First-observed month (YYYY-MM)</text>
+<text x="1112.0" y="145.0" font-family="Arial, Helvetica, sans-serif" font-size="17px" fill="#172B3A" text-anchor="middle" font-weight="700">First observed on/after 2010-12-01</text>
+<line x1="857.0" y1="455.0" x2="1420.0" y2="455.0" stroke="#D8E0E5" stroke-width="1"/>
+<text x="847.0" y="460.0" font-family="Arial, Helvetica, sans-serif" font-size="11px" fill="#5B6B78" text-anchor="end" font-weight="400">0%</text>
+<line x1="857.0" y1="385.0" x2="1420.0" y2="385.0" stroke="#D8E0E5" stroke-width="1"/>
+<text x="847.0" y="390.0" font-family="Arial, Helvetica, sans-serif" font-size="11px" fill="#5B6B78" text-anchor="end" font-weight="400">25%</text>
+<line x1="857.0" y1="315.0" x2="1420.0" y2="315.0" stroke="#D8E0E5" stroke-width="1"/>
+<text x="847.0" y="320.0" font-family="Arial, Helvetica, sans-serif" font-size="11px" fill="#5B6B78" text-anchor="end" font-weight="400">50%</text>
+<line x1="857.0" y1="245.0" x2="1420.0" y2="245.0" stroke="#D8E0E5" stroke-width="1"/>
+<text x="847.0" y="250.0" font-family="Arial, Helvetica, sans-serif" font-size="11px" fill="#5B6B78" text-anchor="end" font-weight="400">75%</text>
+<line x1="857.0" y1="175.0" x2="1420.0" y2="175.0" stroke="#D8E0E5" stroke-width="1"/>
+<text x="847.0" y="180.0" font-family="Arial, Helvetica, sans-serif" font-size="11px" fill="#5B6B78" text-anchor="end" font-weight="400">100%</text>
+<rect x="848.0" y="649.9" width="18.0" height="70.1" rx="2" fill="#A8CDD0" stroke="none" stroke-width="1"/>
+<text x="857.0" y="642.9" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">76</text>
+<text x="857.0" y="742.0" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">2010-12</text>
+<rect x="894.9" y="653.6" width="18.0" height="66.4" rx="2" fill="#A8CDD0" stroke="none" stroke-width="1"/>
+<text x="903.9" y="646.6" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">72</text>
+<rect x="941.8" y="604.8" width="18.0" height="115.2" rx="2" fill="#A8CDD0" stroke="none" stroke-width="1"/>
+<text x="950.8" y="597.8" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">125</text>
+<text x="950.8" y="742.0" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">2011-02</text>
+<rect x="988.8" y="555.0" width="18.0" height="165.0" rx="2" fill="#A8CDD0" stroke="none" stroke-width="1"/>
+<text x="997.8" y="548.0" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">179</text>
+<rect x="1035.7" y="622.3" width="18.0" height="97.7" rx="2" fill="#A8CDD0" stroke="none" stroke-width="1"/>
+<text x="1044.7" y="615.3" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">106</text>
+<text x="1044.7" y="742.0" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">2011-04</text>
+<rect x="1082.6" y="617.7" width="18.0" height="102.3" rx="2" fill="#A8CDD0" stroke="none" stroke-width="1"/>
+<text x="1091.6" y="610.7" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">111</text>
+<rect x="1129.5" y="620.4" width="18.0" height="99.6" rx="2" fill="#A8CDD0" stroke="none" stroke-width="1"/>
+<text x="1138.5" y="613.4" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">108</text>
+<text x="1138.5" y="742.0" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">2011-06</text>
+<rect x="1176.4" y="626.9" width="18.0" height="93.1" rx="2" fill="#A8CDD0" stroke="none" stroke-width="1"/>
+<text x="1185.4" y="619.9" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">101</text>
+<rect x="1223.3" y="621.4" width="18.0" height="98.6" rx="2" fill="#A8CDD0" stroke="none" stroke-width="1"/>
+<text x="1232.3" y="614.4" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">107</text>
+<text x="1232.3" y="742.0" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">2011-08</text>
+<rect x="1270.2" y="690.5" width="18.0" height="29.5" rx="2" fill="#A8CDD0" stroke="none" stroke-width="1"/>
+<text x="1279.2" y="683.5" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">32</text>
+<text x="1279.2" y="742.0" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">2011-09</text>
+<rect x="1317.2" y="720.0" width="18.0" height="0.0" rx="2" fill="#A8CDD0" stroke="none" stroke-width="1"/>
+<text x="1326.2" y="713.0" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">0</text>
+<text x="1326.2" y="742.0" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">2011-10</text>
+<rect x="1364.1" y="720.0" width="18.0" height="0.0" rx="2" fill="#A8CDD0" stroke="none" stroke-width="1"/>
+<text x="1373.1" y="713.0" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">0</text>
+<text x="1373.1" y="742.0" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">2011-11</text>
+<rect x="1411.0" y="720.0" width="18.0" height="0.0" rx="2" fill="#A8CDD0" stroke="none" stroke-width="1"/>
+<text x="1420.0" y="713.0" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">0</text>
+<text x="1420.0" y="742.0" font-family="Arial, Helvetica, sans-serif" font-size="10px" fill="#5B6B78" text-anchor="middle" font-weight="400">2011-12</text>
+<circle cx="857.0" cy="410.8" r="5" fill="#147D83" stroke="white" stroke-width="2"/>
+<line x1="857.0" y1="410.8" x2="903.9" y2="342.2" stroke="#147D83" stroke-width="3"/>
+<circle cx="903.9" cy="342.2" r="5" fill="#147D83" stroke="white" stroke-width="2"/>
+<line x1="903.9" y1="342.2" x2="950.8" y2="365.4" stroke="#147D83" stroke-width="3"/>
+<circle cx="950.8" cy="365.4" r="5" fill="#147D83" stroke="white" stroke-width="2"/>
+<line x1="950.8" y1="365.4" x2="997.8" y2="343.9" stroke="#147D83" stroke-width="3"/>
+<circle cx="997.8" cy="343.9" r="5" fill="#147D83" stroke="white" stroke-width="2"/>
+<line x1="997.8" y1="343.9" x2="1044.7" y2="349.3" stroke="#147D83" stroke-width="3"/>
+<circle cx="1044.7" cy="349.3" r="5" fill="#147D83" stroke="white" stroke-width="2"/>
+<line x1="1044.7" y1="349.3" x2="1091.6" y2="344.0" stroke="#147D83" stroke-width="3"/>
+<circle cx="1091.6" cy="344.0" r="5" fill="#147D83" stroke="white" stroke-width="2"/>
+<line x1="1091.6" y1="344.0" x2="1138.5" y2="322.8" stroke="#147D83" stroke-width="3"/>
+<circle cx="1138.5" cy="322.8" r="5" fill="#147D83" stroke="white" stroke-width="2"/>
+<line x1="1138.5" y1="322.8" x2="1185.4" y2="313.6" stroke="#147D83" stroke-width="3"/>
+<circle cx="1185.4" cy="313.6" r="5" fill="#147D83" stroke="white" stroke-width="2"/>
+<line x1="1185.4" y1="313.6" x2="1232.3" y2="318.9" stroke="#147D83" stroke-width="3"/>
+<circle cx="1232.3" cy="318.9" r="5" fill="#147D83" stroke="white" stroke-width="2"/>
+<circle cx="1279.2" cy="271.2" r="7" fill="white" stroke="#C65D4B" stroke-width="3"/>
+<text x="1269.2" y="257.2" font-family="Arial, Helvetica, sans-serif" font-size="11px" fill="#C65D4B" text-anchor="end" font-weight="600">Partial follow-up: 32/188 mature</text>
+<text x="809.0" y="315.0" font-family="Arial, Helvetica, sans-serif" font-size="12px" fill="#5B6B78" text-anchor="middle" font-weight="400" transform="rotate(-90 809.0 315.0)">Repeat conversion</text>
+<text x="857.0" y="505.0" font-family="Arial, Helvetica, sans-serif" font-size="11px" fill="#5B6B78" text-anchor="start" font-weight="400">Monthly mature conversion (numerator / mature denominator)</text>
+<text x="857.0" y="755.0" font-family="Arial, Helvetica, sans-serif" font-size="12px" fill="#5B6B78" text-anchor="start" font-weight="400">Mature denominator, n</text>
+<text x="1138.5" y="791.0" font-family="Arial, Helvetica, sans-serif" font-size="12px" fill="#5B6B78" text-anchor="middle" font-weight="400">First-observed month (YYYY-MM)</text>
+<text x="70.0" y="823.0" font-family="Arial, Helvetica, sans-serif" font-size="12px" fill="#5B6B78" text-anchor="start" font-weight="400">Monthly numerators, denominators, eligible counts and immature counts are listed in the report. No pooled conversion is calculated.</text>
+</svg>

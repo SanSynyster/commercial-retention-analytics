@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1420" height="790" viewBox="0 0 1420 790" role="img" aria-labelledby="title desc">
+<title id="title">Six descriptive purchase-frequency and recency groups</title>
+<desc id="desc">Six mutually exclusive groups by distinct observed purchase days and recency as of the partial 2011-12-09 source end. Bars show customer counts and share of identified qualifying gross merchandise.</desc>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="65.0" y="55.0" font-family="Arial, Helvetica, sans-serif" font-size="27px" fill="#172B3A" text-anchor="start" font-weight="700">Six descriptive frequency × recency groups</text>
+<text x="65.0" y="84.0" font-family="Arial, Helvetica, sans-serif" font-size="14px" fill="#5B6B78" text-anchor="start" font-weight="400">Recency is as of 2011-12-09, a partially observed final source date; labels are descriptive, not churn states.</text>
+<text x="65.0" y="191.0" font-family="Arial, Helvetica, sans-serif" font-size="14px" fill="#172B3A" text-anchor="start" font-weight="600">One purchase day · 0–59d</text>
+<rect x="390.0" y="165.0" width="440.0" height="32.0" rx="5" fill="#F0F3F5" stroke="none" stroke-width="1"/>
+<rect x="390.0" y="165.0" width="52.0" height="32.0" rx="5" fill="#31856E" stroke="none" stroke-width="1"/>
+<text x="840.0" y="187.0" font-family="Arial, Helvetica, sans-serif" font-size="13px" fill="#172B3A" text-anchor="start" font-weight="700">251</text>
+<rect x="1000.0" y="165.0" width="300.0" height="32.0" rx="5" fill="#F0F3F5" stroke="none" stroke-width="1"/>
+<rect x="1000.0" y="165.0" width="1.8" height="32.0" rx="5" fill="#31856E" stroke="none" stroke-width="1"/>
+<text x="1310.0" y="187.0" font-family="Arial, Helvetica, sans-serif" font-size="13px" fill="#172B3A" text-anchor="start" font-weight="700">0.6%</text>
+<text x="65.0" y="273.0" font-family="Arial, Helvetica, sans-serif" font-size="14px" fill="#172B3A" text-anchor="start" font-weight="600">One purchase day · 60–89d</text>
+<rect x="390.0" y="247.0" width="440.0" height="32.0" rx="5" fill="#F0F3F5" stroke="none" stroke-width="1"/>
+<rect x="390.0" y="247.0" width="25.9" height="32.0" rx="5" fill="#D89A2B" stroke="none" stroke-width="1"/>
+<text x="840.0" y="269.0" font-family="Arial, Helvetica, sans-serif" font-size="13px" fill="#172B3A" text-anchor="start" font-weight="700">125</text>
+<rect x="1000.0" y="247.0" width="300.0" height="32.0" rx="5" fill="#F0F3F5" stroke="none" stroke-width="1"/>
+<rect x="1000.0" y="247.0" width="1.0" height="32.0" rx="5" fill="#D89A2B" stroke="none" stroke-width="1"/>
+<text x="1310.0" y="269.0" font-family="Arial, Helvetica, sans-serif" font-size="13px" fill="#172B3A" text-anchor="start" font-weight="700">0.3%</text>
+<text x="65.0" y="355.0" font-family="Arial, Helvetica, sans-serif" font-size="14px" fill="#172B3A" text-anchor="start" font-weight="600">One purchase day · 90+d</text>
+<rect x="390.0" y="329.0" width="440.0" height="32.0" rx="5" fill="#F0F3F5" stroke="none" stroke-width="1"/>
+<rect x="390.0" y="329.0" width="268.8" height="32.0" rx="5" fill="#C65D4B" stroke="none" stroke-width="1"/>
+<text x="840.0" y="351.0" font-family="Arial, Helvetica, sans-serif" font-size="13px" fill="#172B3A" text-anchor="start" font-weight="700">1,297</text>
+<rect x="1000.0" y="329.0" width="300.0" height="32.0" rx="5" fill="#F0F3F5" stroke="none" stroke-width="1"/>
+<rect x="1000.0" y="329.0" width="8.6" height="32.0" rx="5" fill="#C65D4B" stroke="none" stroke-width="1"/>
+<text x="1310.0" y="351.0" font-family="Arial, Helvetica, sans-serif" font-size="13px" fill="#172B3A" text-anchor="start" font-weight="700">2.9%</text>
+<text x="65.0" y="437.0" font-family="Arial, Helvetica, sans-serif" font-size="14px" fill="#172B3A" text-anchor="start" font-weight="600">Repeat days · 0–59d</text>
+<rect x="390.0" y="411.0" width="440.0" height="32.0" rx="5" fill="#F0F3F5" stroke="none" stroke-width="1"/>
+<rect x="390.0" y="411.0" width="440.0" height="32.0" rx="5" fill="#31856E" stroke="none" stroke-width="1"/>
+<text x="840.0" y="433.0" font-family="Arial, Helvetica, sans-serif" font-size="13px" fill="#172B3A" text-anchor="start" font-weight="700">2,123</text>
+<rect x="1000.0" y="411.0" width="300.0" height="32.0" rx="5" fill="#F0F3F5" stroke="none" stroke-width="1"/>
+<rect x="1000.0" y="411.0" width="222.0" height="32.0" rx="5" fill="#31856E" stroke="none" stroke-width="1"/>
+<text x="1310.0" y="433.0" font-family="Arial, Helvetica, sans-serif" font-size="13px" fill="#172B3A" text-anchor="start" font-weight="700">74.0%</text>
+<text x="65.0" y="519.0" font-family="Arial, Helvetica, sans-serif" font-size="14px" fill="#172B3A" text-anchor="start" font-weight="600">Repeat days · 60–89d</text>
+<rect x="390.0" y="493.0" width="440.0" height="32.0" rx="5" fill="#F0F3F5" stroke="none" stroke-width="1"/>
+<rect x="390.0" y="493.0" width="80.0" height="32.0" rx="5" fill="#D89A2B" stroke="none" stroke-width="1"/>
+<text x="840.0" y="515.0" font-family="Arial, Helvetica, sans-serif" font-size="13px" fill="#172B3A" text-anchor="start" font-weight="700">386</text>
+<rect x="1000.0" y="493.0" width="300.0" height="32.0" rx="5" fill="#F0F3F5" stroke="none" stroke-width="1"/>
+<rect x="1000.0" y="493.0" width="17.2" height="32.0" rx="5" fill="#D89A2B" stroke="none" stroke-width="1"/>
+<text x="1310.0" y="515.0" font-family="Arial, Helvetica, sans-serif" font-size="13px" fill="#172B3A" text-anchor="start" font-weight="700">5.7%</text>
+<text x="65.0" y="601.0" font-family="Arial, Helvetica, sans-serif" font-size="14px" fill="#172B3A" text-anchor="start" font-weight="600">Repeat days · 90+d</text>
+<rect x="390.0" y="575.0" width="440.0" height="32.0" rx="5" fill="#F0F3F5" stroke="none" stroke-width="1"/>
+<rect x="390.0" y="575.0" width="346.1" height="32.0" rx="5" fill="#C65D4B" stroke="none" stroke-width="1"/>
+<text x="840.0" y="597.0" font-family="Arial, Helvetica, sans-serif" font-size="13px" fill="#172B3A" text-anchor="start" font-weight="700">1,670</text>
+<rect x="1000.0" y="575.0" width="300.0" height="32.0" rx="5" fill="#F0F3F5" stroke="none" stroke-width="1"/>
+<rect x="1000.0" y="575.0" width="49.5" height="32.0" rx="5" fill="#C65D4B" stroke="none" stroke-width="1"/>
+<text x="1310.0" y="597.0" font-family="Arial, Helvetica, sans-serif" font-size="13px" fill="#172B3A" text-anchor="start" font-weight="700">16.5%</text>
+<text x="390.0" y="137.0" font-family="Arial, Helvetica, sans-serif" font-size="13px" fill="#5B6B78" text-anchor="start" font-weight="700">Customers</text>
+<text x="1000.0" y="137.0" font-family="Arial, Helvetica, sans-serif" font-size="13px" fill="#5B6B78" text-anchor="start" font-weight="700">Share of identified qualifying gross (0–100%)</text>
+<text x="65.0" y="700.0" font-family="Arial, Helvetica, sans-serif" font-size="12px" fill="#5B6B78" text-anchor="start" font-weight="400">Frequency uses distinct purchase days; multiple same-day invoices remain one day. Group values reconcile to 5,852 customers and £17,123,740.997.</text>
+<text x="65.0" y="729.0" font-family="Arial, Helvetica, sans-serif" font-size="12px" fill="#5B6B78" text-anchor="start" font-weight="400">Recent-first-observed (inclusive 0–30 days) and top-decile flags are independent; neither is a targeting or predictive rule.</text>
+<text x="65.0" y="758.0" font-family="Arial, Helvetica, sans-serif" font-size="12px" fill="#5B6B78" text-anchor="start" font-weight="400">0–30 days is a descriptive implementation convention, not an owner-approved canonical threshold.</text>
+</svg>

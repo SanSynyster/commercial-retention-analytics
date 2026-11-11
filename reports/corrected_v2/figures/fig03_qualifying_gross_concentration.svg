@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="620" viewBox="0 0 1120 620" role="img" aria-labelledby="title desc">
+<title id="title">Top-decile share of identified qualifying gross merchandise</title>
+<desc id="desc">Top 586 identified customers contribute 63.8114 percent of identified qualifying gross merchandise. Remaining identified qualifying customers contribute the rest. Unattributed positive merchandise is excluded and disclosed separately.</desc>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="65.0" y="58.0" font-family="Arial, Helvetica, sans-serif" font-size="27px" fill="#172B3A" text-anchor="start" font-weight="700">Top-decile concentration in qualifying gross</text>
+<text x="65.0" y="88.0" font-family="Arial, Helvetica, sans-serif" font-size="14px" fill="#5B6B78" text-anchor="start" font-weight="400">Customer ranking uses identified qualifying gross merchandise only</text>
+<text x="70.0" y="269.0" font-family="Arial, Helvetica, sans-serif" font-size="17px" fill="#172B3A" text-anchor="start" font-weight="700">Top decile</text>
+<text x="70.0" y="295.0" font-family="Arial, Helvetica, sans-serif" font-size="13px" fill="#5B6B78" text-anchor="start" font-weight="400">586 customers</text>
+<rect x="360.0" y="235.0" width="650.0" height="55.0" rx="7" fill="#F0F3F5" stroke="none" stroke-width="1"/>
+<rect x="360.0" y="235.0" width="414.8" height="55.0" rx="7" fill="#147D83" stroke="none" stroke-width="1"/>
+<text x="789.8" y="260.0" font-family="Arial, Helvetica, sans-serif" font-size="16px" fill="#172B3A" text-anchor="start" font-weight="700">£10,926,893.967</text>
+<text x="789.8" y="282.0" font-family="Arial, Helvetica, sans-serif" font-size="13px" fill="#5B6B78" text-anchor="start" font-weight="400">63.81%</text>
+<text x="70.0" y="419.0" font-family="Arial, Helvetica, sans-serif" font-size="17px" fill="#172B3A" text-anchor="start" font-weight="700">Other identified customers</text>
+<text x="70.0" y="445.0" font-family="Arial, Helvetica, sans-serif" font-size="13px" fill="#5B6B78" text-anchor="start" font-weight="400">5,266 customers</text>
+<rect x="360.0" y="385.0" width="650.0" height="55.0" rx="7" fill="#F0F3F5" stroke="none" stroke-width="1"/>
+<rect x="360.0" y="385.0" width="235.2" height="55.0" rx="7" fill="#4472A1" stroke="none" stroke-width="1"/>
+<text x="610.2" y="410.0" font-family="Arial, Helvetica, sans-serif" font-size="16px" fill="#172B3A" text-anchor="start" font-weight="700">£6,196,847.030</text>
+<text x="610.2" y="432.0" font-family="Arial, Helvetica, sans-serif" font-size="13px" fill="#5B6B78" text-anchor="start" font-weight="400">36.19%</text>
+<line x1="65.0" y1="500.0" x2="1055.0" y2="500.0" stroke="#D8E0E5" stroke-width="1"/>
+<text x="65.0" y="535.0" font-family="Arial, Helvetica, sans-serif" font-size="13px" fill="#5B6B78" text-anchor="start" font-weight="400">Denominator: £17,123,740.997 identified qualifying gross merchandise · top-decile size: ceil(10% × 5,852) = 586</text>
+<text x="65.0" y="565.0" font-family="Arial, Helvetica, sans-serif" font-size="13px" fill="#5B6B78" text-anchor="start" font-weight="400">Excluded from customer ranking: £2,575,930.130 other positive merchandise, unattributed in the frozen bridge.</text>
+<text x="65.0" y="595.0" font-family="Arial, Helvetica, sans-serif" font-size="12px" fill="#5B6B78" text-anchor="start" font-weight="400">Gross merchandise is not accounting net sales, margin or profit.</text>
+</svg>
