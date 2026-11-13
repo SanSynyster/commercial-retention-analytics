@@ -2,7 +2,7 @@
 
 A reproducible customer-behaviour and commercial analytics case study using corrected UCI Online Retail II transaction data. It asks: **How can a retailer understand repeat purchasing, customer concentration and observed customer activity without mistaking incomplete follow-up for churn?**
 
-The corrected-V2 analysis is complete and independently reviewed. It links audited transaction rows to validated purchase occasions, censoring-aware outcomes and aggregate results. Earlier exploratory models, SQL/dbt work and dashboards are not part of this release.
+The corrected-V2 analysis is complete and independently reviewed. It links audited transaction rows to validated purchase occasions, censoring-aware outcomes and aggregate results. Earlier exploratory models, legacy SQL/dbt work and Tableau dashboards are not part of the corrected-V2 findings.
 
 ## What I built
 
@@ -51,7 +51,7 @@ A 90-day repeat requires a qualifying purchase on a strictly later date within t
 
 Customer concentration uses exact Decimal qualifying gross. The separate signed sensitivity adds identified merchandise returns/cancellations without invoice matching. Descriptive segments cross purchase-day frequency with recency as of the partial 2011-12-09 source end. None of these first-observed, recency or segment labels establishes acquisition, churn risk or treatment eligibility.
 
-The current corrected-V2 path is **Python 3.11 and pandas**, with Decimal monetary reconciliation, pinned references and deterministic validation. Fifteen focused tests cover metrics, censoring, reconciliation and segments; run them without raw data using `.venv/bin/python -m unittest discover -s docs/recovery -p 'test_COMMERCIAL_DS_007*.py'`. Earlier exploratory SQL/dbt, Spark, notebook and dashboard work is not included in this repository. No Tableau deployment, production service, executed CRM campaign or deployed AI system is claimed.
+The current corrected-V2 path is **Python 3.11 and pandas**, with Decimal monetary reconciliation, pinned references and deterministic validation. Fifteen focused tests cover metrics, censoring, reconciliation and segments; run them without raw data using `.venv/bin/python -m unittest discover -s docs/recovery -p 'test_COMMERCIAL_DS_007*.py'`. Earlier exploratory SQL/dbt, Spark, notebook and dashboard work is not part of the corrected-V2 findings. The separate Streamlit research application is described below. No Tableau deployment, production service, executed CRM campaign or deployed AI system is claimed.
 
 ## Reproduce
 
@@ -78,6 +78,10 @@ The exact Online Retail II CSV acquisition/conversion is not packaged as a scrip
 ## Limitations
 
 This is observational data from December 2009 through a partial December 9, 2011. Earlier customer history is left-censored; incomplete follow-up is handled explicitly. First-observed customers are not verified acquisitions. Unattributed activity is excluded from customer attribution, and returns/cancellations are unlinked. Segments are descriptive, not validated churn states. The inclusive 0–30-day recent-first-observed flag is a descriptive convention, not a validated CRM threshold or predictive feature. CRM intervention ideas remain proposed; no CRM experiment was executed.
+
+## Interactive research application
+
+The repository also contains a local four-page Streamlit application: [Customer Intelligence & Decision Support](app/README.md). It presents corrected-V2 customer description, separate M1/M2 historical purchase-prediction results, M3 retrospective targeting comparisons and a hypothetical M4 randomized-pilot feasibility calculator. These pages preserve the evidence boundaries above: retrospective purchasing is not causal campaign impact, and the pilot calculations are assumptions rather than measured effects. The application runs from reviewed aggregate bundles and does not require raw or customer-level data.
 
 ## Repository map
 

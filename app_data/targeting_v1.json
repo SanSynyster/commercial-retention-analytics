@@ -1,0 +1,458 @@
+{
+  "bundle_name": "crm_targeting_aggregate",
+  "bundle_version": "1.0.0",
+  "capacities": {
+    "10pct": {
+      "capacity": 0.1,
+      "model_c_differences": {
+        "frequency": {
+          "capture": {
+            "estimate": 0.00235663786331497,
+            "interval": [
+              -0.0021217509781935847,
+              0.009109419346149412
+            ]
+          },
+          "precision": {
+            "estimate": 0.0055299539170506895,
+            "interval": [
+              -0.005020940853608602,
+              0.021688970927549622
+            ]
+          }
+        },
+        "random": {
+          "capture": {
+            "estimate": 0.19543051911511888,
+            "interval": [
+              0.1837261258347909,
+              0.20647284546999717
+            ]
+          },
+          "precision": {
+            "estimate": 0.458586268817597,
+            "interval": [
+              0.4268617890327243,
+              0.4879310465902291
+            ]
+          }
+        },
+        "rfm": {
+          "capture": {
+            "estimate": 0.00903377847604081,
+            "interval": [
+              0.0033864204670763453,
+              0.013723676005691306
+            ]
+          },
+          "precision": {
+            "estimate": 0.021198156682027736,
+            "interval": [
+              0.00785210336525646,
+              0.0326438175501801
+            ]
+          }
+        }
+      },
+      "policies": {
+        "frequency": {
+          "capture": 0.29320502749410843,
+          "capture_interval": null,
+          "lift": 2.928266984263741,
+          "precision": 0.6880184331797236,
+          "precision_interval": null,
+          "selected_snapshots": 2170
+        },
+        "model_c": {
+          "capture": 0.2955616653574234,
+          "capture_interval": null,
+          "lift": 2.9518029546663964,
+          "precision": 0.6935483870967742,
+          "precision_interval": null,
+          "selected_snapshots": 2170
+        },
+        "random": {
+          "capture": 0.10013114624230453,
+          "capture_interval": null,
+          "lift": 1.000019447632822,
+          "precision": 0.23496211827917726,
+          "precision_interval": null,
+          "selected_snapshots": 2170
+        },
+        "rfm": {
+          "capture": 0.2865278868813826,
+          "capture_interval": null,
+          "lift": 2.8615817347895494,
+          "precision": 0.6723502304147465,
+          "precision_interval": null,
+          "selected_snapshots": 2170
+        }
+      }
+    },
+    "20pct": {
+      "capacity": 0.2,
+      "model_c_differences": {
+        "frequency": {
+          "capture": {
+            "estimate": 0.00589159465828748,
+            "interval": [
+              -0.002347957629036679,
+              0.010766108608541072
+            ]
+          },
+          "precision": {
+            "estimate": 0.006918819188191816,
+            "interval": [
+              -0.0027685352215753023,
+              0.012609256744747189
+            ]
+          }
+        },
+        "random": {
+          "capture": {
+            "estimate": 0.26733206718106195,
+            "interval": [
+              0.2527756126521816,
+              0.2790340784262031
+            ]
+          },
+          "precision": {
+            "estimate": 0.3139425475290515,
+            "interval": [
+              0.2940576319661683,
+              0.32965740391869697
+            ]
+          }
+        },
+        "rfm": {
+          "capture": {
+            "estimate": 0.011194029850746245,
+            "interval": [
+              0.004269979526689292,
+              0.015308379482405344
+            ]
+          },
+          "precision": {
+            "estimate": 0.01314575645756455,
+            "interval": [
+              0.005053811841403491,
+              0.017985197172808932
+            ]
+          }
+        }
+      },
+      "policies": {
+        "frequency": {
+          "capture": 0.4615082482325216,
+          "capture_interval": null,
+          "lift": 2.3066897499297068,
+          "precision": 0.5419741697416974,
+          "precision_interval": null,
+          "selected_snapshots": 4336
+        },
+        "model_c": {
+          "capture": 0.4673998428908091,
+          "capture_interval": null,
+          "lift": 2.3361368531202986,
+          "precision": 0.5488929889298892,
+          "precision_interval": null,
+          "selected_snapshots": 4336
+        },
+        "random": {
+          "capture": 0.20006777570974715,
+          "capture_interval": null,
+          "lift": 0.9999697498112637,
+          "precision": 0.23495044140083773,
+          "precision_interval": null,
+          "selected_snapshots": 4336
+        },
+        "rfm": {
+          "capture": 0.45620581304006286,
+          "capture_interval": null,
+          "lift": 2.280187357058174,
+          "precision": 0.5357472324723247,
+          "precision_interval": null,
+          "selected_snapshots": 4336
+        }
+      }
+    },
+    "5pct": {
+      "capacity": 0.05,
+      "model_c_differences": {
+        "frequency": {
+          "capture": {
+            "estimate": 0.003142183817753358,
+            "interval": [
+              -0.00020141088343628085,
+              0.006816168177476795
+            ]
+          },
+          "precision": {
+            "estimate": 0.014719411223551027,
+            "interval": [
+              -0.0009225092250921857,
+              0.03205128205128205
+            ]
+          }
+        },
+        "random": {
+          "capture": {
+            "estimate": 0.12540705816514888,
+            "interval": [
+              0.11887366648239388,
+              0.13215963021258562
+            ]
+          },
+          "precision": {
+            "estimate": 0.5874634224258859,
+            "interval": [
+              0.5582853172656986,
+              0.6161298805668917
+            ]
+          }
+        },
+        "rfm": {
+          "capture": {
+            "estimate": 0.007462686567164201,
+            "interval": [
+              0.0036011104289155773,
+              0.011715996712339145
+            ]
+          },
+          "precision": {
+            "estimate": 0.034958601655933674,
+            "interval": [
+              0.016696815089672194,
+              0.05437788018433187
+            ]
+          }
+        }
+      },
+      "policies": {
+        "frequency": {
+          "capture": 0.17242733699921445,
+          "capture_interval": null,
+          "lift": 3.4377601172465275,
+          "precision": 0.8077276908923643,
+          "precision_interval": null,
+          "selected_snapshots": 1087
+        },
+        "model_c": {
+          "capture": 0.1755695208169678,
+          "capture_interval": null,
+          "lift": 3.5004072264446418,
+          "precision": 0.8224471021159153,
+          "precision_interval": null,
+          "selected_snapshots": 1087
+        },
+        "random": {
+          "capture": 0.05016246265181893,
+          "capture_interval": null,
+          "lift": 1.0001112148944065,
+          "precision": 0.23498367969002945,
+          "precision_interval": null,
+          "selected_snapshots": 1087
+        },
+        "rfm": {
+          "capture": 0.1681068342498036,
+          "capture_interval": null,
+          "lift": 3.3516203420991206,
+          "precision": 0.7874885004599816,
+          "precision_interval": null,
+          "selected_snapshots": 1087
+        }
+      }
+    }
+  },
+  "content_sha256": "44bcf66762056a8746333239e731e6d79809d2a0a29904924dd9b8c858a7c6f9",
+  "definitions": {
+    "bootstrap": {
+      "interval_method": "two-sided percentile 95% interval",
+      "limitations": "Customer resampling captures repeated-month dependence, not uncertainty across future calendar periods. Random policy is its analytical expectation, so intervals do not include finite random-list draw variability.",
+      "method": "paired customer-cluster bootstrap; sample customer trajectories with replacement, preserve multiplicity, reselect monthly top-k",
+      "requested_resamples": 2000,
+      "seed": 20261112,
+      "valid_resamples": 2000
+    },
+    "evaluation_unit": "Mature customer-month snapshot",
+    "outcome": "Any qualifying purchase in next 30 days",
+    "policy_labels": {
+      "frequency": "365-day qualifying purchase-date frequency",
+      "model_c": "Model C \u2014 11-feature logistic regression",
+      "random": "Random-selection benchmark",
+      "rfm": "Model B \u2014 RFM logistic regression"
+    }
+  },
+  "evidence_label": "Retrospective targeting",
+  "frequency_tie_sensitivity": {
+    "precision_by_rule": {
+      "10pct": {
+        "customer_key_ascending": 0.688,
+        "customer_key_descending": 0.6848,
+        "sha256_key_month": 0.6843,
+        "uniform_random_expectation": 0.6858
+      },
+      "20pct": {
+        "customer_key_ascending": 0.542,
+        "customer_key_descending": 0.5357,
+        "sha256_key_month": 0.5424,
+        "uniform_random_expectation": 0.5389
+      },
+      "5pct": {
+        "customer_key_ascending": 0.8077,
+        "customer_key_descending": 0.8123,
+        "sha256_key_month": 0.8114,
+        "uniform_random_expectation": 0.8102
+      }
+    },
+    "source": "docs/research/COMMERCIAL_DS_P2_M3_003_INDEPENDENT_TARGETING_REVIEW.md"
+  },
+  "holdout": {
+    "capacity_rule": "ceil(capacity \u00d7 eligible customer-month snapshots in that month)",
+    "months": [
+      "2011-07",
+      "2011-08",
+      "2011-09",
+      "2011-10",
+      "2011-11"
+    ],
+    "positive_snapshots": 5092,
+    "prevalence": 0.2349575489110373,
+    "snapshots": 21672,
+    "unique_customers": 4999
+  },
+  "overlap": {
+    "10pct": {
+      "frequency": {
+        "intersection_count_across_monthly_snapshots": 1865,
+        "jaccard_of_summed_monthly_sets": 0.7535353535353535,
+        "share_of_model_c_selections": 0.8594470046082949
+      },
+      "model_c": {
+        "intersection_count_across_monthly_snapshots": 2170,
+        "jaccard_of_summed_monthly_sets": 1.0,
+        "share_of_model_c_selections": 1.0
+      },
+      "random_expected": {
+        "expected_intersection_count_across_monthly_snapshots": 217.28036905720106,
+        "expected_share_of_model_c_selections": 0.1001292023305074,
+        "note": "Expected overlap; not a realized random target list."
+      },
+      "rfm": {
+        "intersection_count_across_monthly_snapshots": 1907,
+        "jaccard_of_summed_monthly_sets": 0.7838060008220304,
+        "share_of_model_c_selections": 0.8788018433179724
+      }
+    },
+    "20pct": {
+      "frequency": {
+        "intersection_count_across_monthly_snapshots": 3780,
+        "jaccard_of_summed_monthly_sets": 0.7726901062959934,
+        "share_of_model_c_selections": 0.8717712177121771
+      },
+      "model_c": {
+        "intersection_count_across_monthly_snapshots": 4336,
+        "jaccard_of_summed_monthly_sets": 1.0,
+        "share_of_model_c_selections": 1.0
+      },
+      "random_expected": {
+        "expected_intersection_count_across_monthly_snapshots": 867.5201848395093,
+        "expected_share_of_model_c_selections": 0.2000738433670455,
+        "note": "Expected overlap; not a realized random target list."
+      },
+      "rfm": {
+        "intersection_count_across_monthly_snapshots": 3926,
+        "jaccard_of_summed_monthly_sets": 0.8272229245680573,
+        "share_of_model_c_selections": 0.9054428044280443
+      }
+    },
+    "5pct": {
+      "frequency": {
+        "intersection_count_across_monthly_snapshots": 945,
+        "jaccard_of_summed_monthly_sets": 0.7689178193653377,
+        "share_of_model_c_selections": 0.8693652253909844
+      },
+      "model_c": {
+        "intersection_count_across_monthly_snapshots": 1087,
+        "jaccard_of_summed_monthly_sets": 1.0,
+        "share_of_model_c_selections": 1.0
+      },
+      "random_expected": {
+        "expected_intersection_count_across_monthly_snapshots": 54.52057612611357,
+        "expected_share_of_model_c_selections": 0.05015692375907412,
+        "note": "Expected overlap; not a realized random target list."
+      },
+      "rfm": {
+        "intersection_count_across_monthly_snapshots": 964,
+        "jaccard_of_summed_monthly_sets": 0.7966942148760331,
+        "share_of_model_c_selections": 0.8868445262189513
+      }
+    }
+  },
+  "provenance": {
+    "builder": "src/targeting_bundle.py",
+    "source_aggregate_sha256": "5e9558f7d26a144587325d6465164bed7f6ce1718facc35f0e7a6cd6c15b509d",
+    "source_documents": {
+      "independent_review": "docs/research/COMMERCIAL_DS_P2_M3_003_INDEPENDENT_TARGETING_REVIEW.md",
+      "results": "docs/research/COMMERCIAL_DS_P2_M3_002_TARGETING_COMPARISON.md"
+    },
+    "source_manifest": "m3_002_targeting_manifest.json",
+    "source_manifest_input_sha256": {
+      "baseline_run_manifest": "81bb760a60c4d9badd6b3b65baf93086165e5a4c30ec1e9391390b4e30c2e14a",
+      "dataset": "44c580a83bea993fd0e2f8df8a03bb7aa2f11e64085671ea2ed78c9e28e952a8",
+      "predictions": "facdd36297340138ec23ddbd98bc9cc551776c6bdf635e731ced08cc440626c1",
+      "source_manifest": "3d7ee78afa96a1d4abe7ee8f7762a994e652bc5c799b892d227f56be03c96a13"
+    }
+  },
+  "repeated_selection": [
+    {
+      "capacity": 0.05,
+      "maximum_months_selected": 5,
+      "policy": "model_c",
+      "selected_multiple_months": 252,
+      "selected_snapshots": 1087,
+      "unique_customers": 292
+    },
+    {
+      "capacity": 0.1,
+      "maximum_months_selected": 5,
+      "policy": "model_c",
+      "selected_multiple_months": 498,
+      "selected_snapshots": 2170,
+      "unique_customers": 598
+    },
+    {
+      "capacity": 0.2,
+      "maximum_months_selected": 5,
+      "policy": "model_c",
+      "selected_multiple_months": 1008,
+      "selected_snapshots": 4336,
+      "unique_customers": 1205
+    },
+    {
+      "capacity": 0.05,
+      "maximum_months_selected": 5,
+      "policy": "frequency",
+      "selected_multiple_months": 241,
+      "selected_snapshots": 1087,
+      "unique_customers": 268
+    },
+    {
+      "capacity": 0.1,
+      "maximum_months_selected": 5,
+      "policy": "frequency",
+      "selected_multiple_months": 481,
+      "selected_snapshots": 2170,
+      "unique_customers": 540
+    },
+    {
+      "capacity": 0.2,
+      "maximum_months_selected": 5,
+      "policy": "frequency",
+      "selected_multiple_months": 967,
+      "selected_snapshots": 4336,
+      "unique_customers": 1085
+    }
+  ],
+  "schema_version": 1
+}
