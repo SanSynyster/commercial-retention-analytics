@@ -1,0 +1,383 @@
+{
+  "bundle_name": "purchase_propensity_summary",
+  "bundle_version": "1.0.0",
+  "content_sha256": "a4fcc6d60cac7ddc2de3a5c62c457c9f706237792b42b1bdffa1715d09535562",
+  "evidence_label": "Historical prediction",
+  "m1": {
+    "auc_interval": {
+      "lower": 0.441,
+      "method": "customer-level percentile bootstrap",
+      "resamples": 2000,
+      "seed": 20261112,
+      "upper": 0.5963
+    },
+    "decision": "Day 21: first qualifying purchase timestamp + 21 days.",
+    "evaluation_unit": "Customer; 208 fully mature customers in chronological test.",
+    "limitations": [
+      "The confidence interval includes values below and above chance; the predeclared success criterion was not met.",
+      "Only 304 training and 208 test customers; substantial seasonal prevalence shift (29.61% training to 46.63% test).",
+      "The test set was not entirely unseen: M1-008 had examined prevalence by month and spend third before protocol freeze; no test-driven tuning or model selection was identified."
+    ],
+    "models": {
+      "A_constant": {
+        "average_precision": null,
+        "brier_score": 0.2779,
+        "calibration": {
+          "intercept": null,
+          "slope": null,
+          "status": "constant comparator; slope not identifiable"
+        },
+        "lift_10pct": null,
+        "precision_10pct": null,
+        "roc_auc": 0.5
+      },
+      "B_gross_only": {
+        "average_precision": null,
+        "brier_score": 0.2761,
+        "calibration": {
+          "intercept": 0.112,
+          "slope": 0.295,
+          "status": "diagnostic"
+        },
+        "lift_10pct": null,
+        "precision_10pct": null,
+        "roc_auc": 0.5439
+      },
+      "C_three_feature": {
+        "average_precision": null,
+        "brier_score": 0.2743,
+        "calibration": {
+          "intercept": 0.172,
+          "slope": 0.376,
+          "status": "M1-010 corrected diagnostic; approximate SE 0.45 and 0.53"
+        },
+        "lift_10pct": null,
+        "precision_10pct": null,
+        "roc_auc": 0.5189
+      }
+    },
+    "outcome": "Second qualifying purchase in (Day 21, Day 111], a 90-day forward window.",
+    "success_criterion_met": false,
+    "task": "Day-21 second qualifying purchase among customers in the approved 12-month qualifying-history acquisition proxy.",
+    "test": {
+      "customers": 208,
+      "negative": 111,
+      "positive": 97,
+      "prevalence": 0.46634615384615385
+    },
+    "training": {
+      "customers": 304,
+      "negative": 214,
+      "positive": 90,
+      "prevalence": 0.29605263157894735
+    }
+  },
+  "m2": {
+    "customer_overlap": 4265,
+    "decision": "One eligible customer-month snapshot; decision at 00:00 on the first day of the snapshot month; preceding 365-day features.",
+    "evaluation_unit": "Customer-month snapshot; repeated customers are allowed and clustered for uncertainty.",
+    "limitations": [
+      "The July\u2013November 2011 holdout was previously examined and is one short seasonal period, not independent temporal replication.",
+      "Training prevalence was 17.83% and test prevalence 23.50%; monthly test prevalence rose to 32.14% in November.",
+      "4,265 customers occur in both partitions; reported uncertainty clusters repeated test snapshots by customer.",
+      "Model C underpredicts test prevalence (17.69% mean prediction versus 23.50% observed). Discrimination does not establish causal CRM impact."
+    ],
+    "model_c_auc_interval": {
+      "lower": 0.7564578872917197,
+      "method": "two-sided percentile interval over valid customer-cluster resamples",
+      "omitted": 0,
+      "resamples": 2000,
+      "seed": 20261112,
+      "upper": 0.7748954710305196,
+      "valid": 2000
+    },
+    "models": {
+      "A_constant": {
+        "average_precision": 0.2349575489110373,
+        "brier_score": 0.182961958884632,
+        "calibration": {
+          "intercept": 0.347344139489429,
+          "slope": null,
+          "status": "intercept_only_calibration_in_large; slope_not_identifiable"
+        },
+        "lift_10pct": 1.0,
+        "precision_10pct": 0.2349575489110373,
+        "roc_auc": 0.5
+      },
+      "B_rfm": {
+        "average_precision": 0.5483029688645793,
+        "brier_score": 0.14967691664095095,
+        "calibration": {
+          "intercept": 0.3427664666077089,
+          "slope": 0.9320769733072654,
+          "status": "diagnostic_only"
+        },
+        "lift_10pct": 2.8661847105509546,
+        "precision_10pct": 0.6734317343173432,
+        "roc_auc": 0.7599526256091772
+      },
+      "C_full_11": {
+        "average_precision": 0.5659489004433382,
+        "brier_score": 0.1474375620294117,
+        "calibration": {
+          "intercept": 0.4114237080562209,
+          "slope": 0.9729635800998057,
+          "status": "stationary_optimum_after_optimizer_warning"
+        },
+        "lift_10pct": 2.948636599484612,
+        "precision_10pct": 0.6928044280442804,
+        "roc_auc": 0.7659859786206419
+      }
+    },
+    "monthly": [
+      {
+        "auc_a": 0.5,
+        "auc_b": 0.7690514521899671,
+        "auc_c": 0.777109515102035,
+        "customers": 4314,
+        "month": "2011-07",
+        "negative": 3505,
+        "positive": 809,
+        "prevalence": 0.18752897542883634,
+        "snapshots": 4314
+      },
+      {
+        "auc_a": 0.5,
+        "auc_b": 0.8068482390471459,
+        "auc_c": 0.8121048253652733,
+        "customers": 4326,
+        "month": "2011-08",
+        "negative": 3531,
+        "positive": 795,
+        "prevalence": 0.18377253814147018,
+        "snapshots": 4326
+      },
+      {
+        "auc_a": 0.5,
+        "auc_b": 0.7672169260652065,
+        "auc_c": 0.7731250235602117,
+        "customers": 4324,
+        "month": "2011-09",
+        "negative": 3281,
+        "positive": 1043,
+        "prevalence": 0.2412118408880666,
+        "snapshots": 4324
+      },
+      {
+        "auc_a": 0.5,
+        "auc_b": 0.7369589942011856,
+        "auc_c": 0.7416722383020817,
+        "customers": 4364,
+        "month": "2011-10",
+        "negative": 3315,
+        "positive": 1049,
+        "prevalence": 0.24037580201649864,
+        "snapshots": 4364
+      },
+      {
+        "auc_a": 0.5,
+        "auc_b": 0.7445016387196604,
+        "auc_c": 0.7510611341572937,
+        "customers": 4344,
+        "month": "2011-11",
+        "negative": 2948,
+        "positive": 1396,
+        "prevalence": 0.32136279926335176,
+        "snapshots": 4344
+      }
+    ],
+    "outcome": "Any qualifying purchase in [decision timestamp, decision timestamp + 30 days); mature labels only.",
+    "task": "Established-customer monthly prediction of at least one qualifying purchase in the next fixed 30 days.",
+    "test": {
+      "customers": 4999,
+      "negative": 16580,
+      "positive": 5092,
+      "prevalence": 0.2349575489110373,
+      "snapshots": 21672
+    },
+    "training": {
+      "customers": 4808,
+      "negative": 21074,
+      "positive": 4573,
+      "prevalence": 0.17830545482902485,
+      "snapshots": 25647
+    }
+  },
+  "m2_calibration": {
+    "limitations": [
+      "Exploratory re-analysis of the previously examined July\u2013November holdout, not independent prospective validation.",
+      "Only September\u2013November have sequentially calibrated results; July and August are unadjusted warm-up months.",
+      "Adjustment modestly improves Brier score but underprediction remains; month-specific intercepts can reorder observations across months.",
+      "Within-month ranking is unchanged. No causal campaign effect or future-period generalisation is established."
+    ],
+    "method": "Exploratory sequential intercept-only adjustment; fixed Model C coefficients and slope=1.",
+    "monthly": [
+      {
+        "adjusted_auc": 0.777109515102035,
+        "adjusted_brier": 0.11945591118295867,
+        "adjusted_mean_probability": 0.1753702716294069,
+        "month": "2011-07",
+        "prevalence": 0.18752897542883634,
+        "raw_auc": 0.777109515102035,
+        "raw_brier": 0.11945591118295867,
+        "raw_mean_probability": 0.1753702716294069,
+        "snapshots": 4314
+      },
+      {
+        "adjusted_auc": 0.8121048253652733,
+        "adjusted_brier": 0.11293589577865991,
+        "adjusted_mean_probability": 0.17645968764457065,
+        "month": "2011-08",
+        "prevalence": 0.18377253814147018,
+        "raw_auc": 0.8121048253652733,
+        "raw_brier": 0.11293589577865991,
+        "raw_mean_probability": 0.17645968764457065,
+        "snapshots": 4326
+      },
+      {
+        "adjusted_auc": 0.7731250235602117,
+        "adjusted_brier": 0.14900577171249474,
+        "adjusted_mean_probability": 0.1840229616950412,
+        "month": "2011-09",
+        "prevalence": 0.2412118408880666,
+        "raw_auc": 0.7731250235602117,
+        "raw_brier": 0.15049567117344423,
+        "raw_mean_probability": 0.17435861730392965,
+        "snapshots": 4324
+      },
+      {
+        "adjusted_auc": 0.7416722383020817,
+        "adjusted_brier": 0.15577439555228245,
+        "adjusted_mean_probability": 0.18743241776029568,
+        "month": "2011-10",
+        "prevalence": 0.24037580201649864,
+        "raw_auc": 0.7416722383020817,
+        "raw_brier": 0.15693528231742312,
+        "raw_mean_probability": 0.17762717650215606,
+        "snapshots": 4364
+      },
+      {
+        "adjusted_auc": 0.7510611341572937,
+        "adjusted_brier": 0.18625321869492295,
+        "adjusted_mean_probability": 0.2189596657453915,
+        "month": "2011-11",
+        "prevalence": 0.32136279926335176,
+        "raw_auc": 0.7510611341572937,
+        "raw_brier": 0.19699919524227358,
+        "raw_mean_probability": 0.1807428330628087,
+        "snapshots": 4344
+      }
+    ],
+    "pool_rule": "Only fully mature labels with maturity strictly before each target decision; no contemporaneous/future labels.",
+    "pooled": {
+      "adjusted": {
+        "auc": 0.7582226296650184,
+        "average_precision": 0.5856661206979185,
+        "brier": 0.16368818301762839,
+        "calibration": {
+          "intercept": 0.43472453432990615,
+          "slope": 0.9491475774269759,
+          "status": "stationary_optimum_after_optimizer_warning"
+        },
+        "mean_probability": 0.19681024750408754,
+        "prevalence": 0.2676488643339472,
+        "risk_gap": 0.07083861682985965
+      },
+      "bootstrap": {
+        "method": "paired customer-cluster bootstrap; preserve multiplicity and refit each lagged intercept per replicate",
+        "omitted": 0,
+        "resamples": 2000,
+        "seed": 20261112,
+        "valid": 2000
+      },
+      "brier_ci": [
+        -0.005533603747726112,
+        -0.0033958196740644497
+      ],
+      "brier_difference": -0.004458216169813627,
+      "customers": 4796,
+      "months": [
+        "2011-09",
+        "2011-10",
+        "2011-11"
+      ],
+      "raw": {
+        "auc": 0.7542400492263741,
+        "average_precision": 0.5805351875979842,
+        "brier": 0.1681532656783029,
+        "calibration": {
+          "intercept": null,
+          "slope": null,
+          "status": "not_estimable_or_unstable"
+        },
+        "mean_probability": 0.17758122516132915,
+        "prevalence": 0.2676488643339472,
+        "risk_gap": 0.09006763917261804
+      },
+      "snapshots": 13032
+    },
+    "pools": [
+      {
+        "customers": 4432,
+        "delta": 0.08328327656156119,
+        "maturity_as_of": "2011-08-31 00:00:00",
+        "negative": 7036,
+        "positive": 1604,
+        "prevalence": 0.18564814814814815,
+        "snapshots": 8640,
+        "target_month": "2011-09"
+      },
+      {
+        "customers": 4432,
+        "delta": 0.08328327656156119,
+        "maturity_as_of": "2011-08-31 00:00:00",
+        "negative": 7036,
+        "positive": 1604,
+        "prevalence": 0.18564814814814815,
+        "snapshots": 8640,
+        "target_month": "2011-10"
+      },
+      {
+        "customers": 4756,
+        "delta": 0.3028643510114588,
+        "maturity_as_of": "2011-10-31 00:00:00",
+        "negative": 13632,
+        "positive": 3696,
+        "prevalence": 0.21329639889196675,
+        "snapshots": 17328,
+        "target_month": "2011-11"
+      }
+    ]
+  },
+  "provenance": {
+    "builder": "src/propensity_summary_bundle.py",
+    "builder_sha256": "a3068ab284375af59cda2b1104f116aaa4ff7e958b0222edcc9c0346c52366ac",
+    "source_documents": {
+      "m1_protocol": "docs/research/COMMERCIAL_DS_P2_M1_009_BASELINE_PROTOCOL.md",
+      "m1_results_report": "docs/research/COMMERCIAL_DS_P2_M1_009_BASELINE_RESULTS.md",
+      "m2_calibration_aggregate": "external M2-012 aggregate summary",
+      "m2_calibration_report": "docs/research/COMMERCIAL_DS_P2_M2_012_SEQUENTIAL_CALIBRATION_RESULTS.md",
+      "m2_protocol": "docs/research/COMMERCIAL_DS_P2_M2_007_BASELINE_PROTOCOL.md",
+      "m2_results_report": "docs/research/COMMERCIAL_DS_P2_M2_008_BASELINE_RESULTS.md",
+      "m2_run_manifest": "external M2-008 aggregate run manifest"
+    },
+    "source_sha256": {
+      "m1_protocol": "d5be6bfefbbbddf8e5f7dfe8a81202cc04c1d18e7480c698aec5211b3c92c3ac",
+      "m1_results_report": "9b48774fa5171e12c3b1658b168440e50a56943298e7c8a785f17de503e01808",
+      "m2_calibration_aggregate": "3cafd6ab08543f2f7675768d005598814ea20a1c4c3bedb0efee84542a4ef030",
+      "m2_calibration_report": "f0ced66ed2659d25a1723ba6f64f177a3de950e60548ee1796a9ef5416556508",
+      "m2_protocol": "790d5377d4817ea3148b5a290bd9d24cfa5c3e3866a6b89f90418aa1b748e7b4",
+      "m2_results_report": "3d4668810e9c542e38a666e2b74cfa0341830da51e331a2e0c1fb9a29651d856",
+      "m2_run_manifest": "81bb760a60c4d9badd6b3b65baf93086165e5a4c30ec1e9391390b4e30c2e14a"
+    },
+    "upstream_artifact_sha256": {
+      "m2_dataset": "44c580a83bea993fd0e2f8df8a03bb7aa2f11e64085671ea2ed78c9e28e952a8",
+      "m2_dataset_manifest": "3d7ee78afa96a1d4abe7ee8f7762a994e652bc5c799b892d227f56be03c96a13",
+      "m2_models": "e971ffa7712c56c0a02c1d6157e15e573c5ad6dd24b4f421b165fbf6dc807b3f",
+      "m2_predictions": "facdd36297340138ec23ddbd98bc9cc551776c6bdf635e731ced08cc440626c1",
+      "m2_protocol": "790d5377d4817ea3148b5a290bd9d24cfa5c3e3866a6b89f90418aa1b748e7b4",
+      "m2_snapshot_builder": "58f29d2780f541c591312c8d7773815b28d3d828c4be2adea5994c47c8cfa82b"
+    }
+  },
+  "schema_version": 1
+}

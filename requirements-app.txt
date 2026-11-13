@@ -1,0 +1,4 @@
+# Customer Intelligence & Decision Support Streamlit app (M5).
+# Research dependencies are pinned in requirements-minimal.txt.
+-r requirements-minimal.txt
+streamlit==1.66.1
